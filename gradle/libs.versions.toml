@@ -1,0 +1,50 @@
+[versions]
+agp = "8.2.2"
+exifinterface = "1.3.7"
+kotlin = "2.0.0"
+core-ktx = "1.13.1"
+junit = "4.13.2"
+androidx-test-ext-junit = "1.1.5"
+espresso-core = "3.5.1"
+lifecycle-runtime-ktx = "2.8.2"
+activity-compose = "1.9.0"
+compose-bom = "2024.06.00"
+litert = "1.4.0"
+tensorflow-lite-select-tf-ops = "2.16.1"
+zoomable = "1.6.0"
+camerax-core = "1.4.0-alpha04"
+camerax-camera2 = "1.4.0-alpha04"
+camerax-lifecycle = "1.4.0-alpha04"
+camerax-view = "1.4.0-alpha04"
+
+[libraries]
+androidx-exifinterface = { module = "androidx.exifinterface:exifinterface", version.ref = "exifinterface" }
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-ext-junit" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core" }
+lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle-runtime-ktx" }
+activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activity-compose" }
+compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "compose-bom" }
+litert = { module = "com.google.ai.edge.litert:litert", version.ref = "litert" }
+litert-gpu = { module = "com.google.ai.edge.litert:litert-gpu", version.ref = "litert" }
+litert-gpu-api = { module = "com.google.ai.edge.litert:litert-gpu-api", version.ref = "litert" }
+litert-support = { module = "com.google.ai.edge.litert:litert-support", version.ref = "litert" }
+tensorflow-lite-select-tf-ops = { module = "org.tensorflow:tensorflow-lite-select-tf-ops", version.ref = "tensorflow-lite-select-tf-ops" }
+ui = { group = "androidx.compose.ui", name = "ui" }
+ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+material3 = { group = "androidx.compose.material3", name = "material3" }
+zoomable = { module = "net.engawapg.lib:zoomable", version.ref = "zoomable" }
+camerax-core = { group = "androidx.camera", name = "camera-core", version.ref = "camerax-core" }
+camerax-camera2 = { group = "androidx.camera", name = "camera-camera2", version.ref = "camerax-camera2" }
+camerax-lifecycle = { group = "androidx.camera", name = "camera-lifecycle", version.ref = "camerax-lifecycle" }
+camerax-view = { group = "androidx.camera", name = "camera-view", version.ref = "camerax-view" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Depth-Anything</string>
+
+    <string name="model_name">
+        Depth Anything
+    </string>
+    <string name="model_description">
+        Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data \n TensorFlow Lite implementation
+    </string>
+</resources>
